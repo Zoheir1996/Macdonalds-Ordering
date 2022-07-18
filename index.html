@@ -16,14 +16,14 @@
         <main id="app">
             
             <section class="items">
-                <h4>Pick your items</h4>
+                <h4>{{message}}</h4>
                 <div class="product selected">
                     <div class="photo">
                         <img src="img/big-mac.png">
                     </div>
                     <div class="description">
                         <span class="name">Big Mac</span>
-                        <span class="price">$ 5.99</span>
+                        <span class="price">{{ products[0].price }}</span>
                         <div class="quantity-area">
                             <button>-</button>
                             <span class="quantity">1</span>
