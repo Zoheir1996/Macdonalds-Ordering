@@ -20,6 +20,7 @@
                 <div  v-for="product in products" 
                 class="product"
                 @click= "product.active = !product.active"
+                :class = "product.active ? " 'selected' : '' "
                 >
 
                     <div class="photo">
